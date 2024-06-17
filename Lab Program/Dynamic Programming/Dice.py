@@ -14,6 +14,6 @@ def generate(d,n,curr,tar):
         d[curr]=i
         generate(d,n,curr+1,tar)
 n=3 #no of dice
-tar=10 #target MANO MASS
+tar=10 #target 
 dice={}
 generate(dice,n,0,tar)
